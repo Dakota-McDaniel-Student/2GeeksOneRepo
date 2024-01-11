@@ -1,0 +1,15 @@
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/2GeeksOneRepo.csproj.AssemblyReference.cache
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/2GeeksOneRepo.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/2GeeksOneRepo.AssemblyInfoInputs.cache
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/2GeeksOneRepo.AssemblyInfo.cs
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/2GeeksOneRepo.csproj.CoreCompileInputs.cache
+/workspaces/2GeeksOneRepo/bin/Debug/net7.0/2GeeksOneRepo
+/workspaces/2GeeksOneRepo/bin/Debug/net7.0/2GeeksOneRepo.deps.json
+/workspaces/2GeeksOneRepo/bin/Debug/net7.0/2GeeksOneRepo.runtimeconfig.json
+/workspaces/2GeeksOneRepo/bin/Debug/net7.0/2GeeksOneRepo.dll
+/workspaces/2GeeksOneRepo/bin/Debug/net7.0/2GeeksOneRepo.pdb
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/2GeeksOneRepo.dll
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/refint/2GeeksOneRepo.dll
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/2GeeksOneRepo.pdb
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/2GeeksOneRepo.genruntimeconfig.cache
+/workspaces/2GeeksOneRepo/obj/Debug/net7.0/ref/2GeeksOneRepo.dll
