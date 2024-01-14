@@ -5,11 +5,14 @@
     {
 
         Console.WriteLine("What game would you like to play");
-        string Hangman = "HANGMAN";
-        if(Console.ReadLine() == "Hangman")
+        string userInput = Console.ReadLine().ToLower();
+        if (userInput == "hangman")
         {
+            Console.Clear();
+            Hangman hangmanGame = new Hangman();
             Console.WriteLine("You are now playing Hangman.");
-            
+            hangmanGame.Game();
+
         }
     }
     
