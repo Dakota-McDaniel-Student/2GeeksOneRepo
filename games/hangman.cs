@@ -1,5 +1,6 @@
 public class Hangman
 {
+    int wrong = 0;
 
 // If need to test the random in the array
 // Console.Write(words[start]);
@@ -19,9 +20,9 @@ public class Hangman
 
             Console.WriteLine("Guess a letter");
             char guess = char.Parse(Console.ReadLine());
-            char charArray = guess.ToCharArray();
+            char[] charArray = start.ToCharArray();
 
-            if (guess == char in charArray)
+            if (guess == )
             {
 
                 Console.WriteLine();
