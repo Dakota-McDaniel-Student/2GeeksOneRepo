@@ -12,8 +12,9 @@ public class Hangman
         {
 
             Console.WriteLine("Guess a letter");
-            char guess = Console.ReadLine();
+            char guess = char.Parse(Console.ReadLine());
             char charArray = guess.ToCharArray();
+
             if (guess == char in charArray)
             {
 
