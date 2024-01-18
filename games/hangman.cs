@@ -8,6 +8,22 @@ public class Hangman
     {
 
         CreateRandom();
+        while (wrong < 8)
+        {
+
+            Console.WriteLine("Guess a letter");
+            char guess = Console.ReadLine();
+            char charArray = guess.ToCharArray();
+            if (guess == char in charArray)
+            {
+
+                Console.WriteLine();
+
+            }
+
+        }
+
+
         //Need code to display underscores and maybe hangman character, has to have if statements for when player guesses a correct letter
 
     }
@@ -21,7 +37,7 @@ public class Hangman
         Random random = new Random();
         int start = random.Next(0, words.Length);
 
-        Console.Write(words[start]);
+        Console.WriteLine(words[start]);
 
 
     }
