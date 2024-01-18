@@ -15,21 +15,21 @@ public class Hangman
 
         Console.WriteLine(words[start]);
 
-        while (wrong < 8)
-        {
+        // while (wrong < 8)
+        // {
 
-            Console.WriteLine("Guess a letter");
-            char guess = char.Parse(Console.ReadLine());
-            char[] charArray = start.ToCharArray();
+        //     Console.WriteLine("Guess a letter");
+        //     char guess = char.Parse(Console.ReadLine());
+        //     char[] charArray = start.ToCharArray();
 
-            if (guess == )
-            {
+        //     if (guess == )
+        //     {
 
-                Console.WriteLine();
+        //         Console.WriteLine();
 
-            }
+        //     }
 
-        }
+        // }
 
 
         //Need code to display underscores and maybe hangman character, has to have if statements for when player guesses a correct letter
