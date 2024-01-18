@@ -5,7 +5,7 @@
     {
 
         Console.WriteLine("What game would you like to play?");
-        Console.WriteLine("Your choices are: hangman, Number Guesser, ...");
+        Console.WriteLine("Your choices are: Hangman, Number Guesser, ...");
         
         string userInput = Console.ReadLine().ToLower();
         if (userInput == "hangman" || userInput == "hang" || userInput == "h")
