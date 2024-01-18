@@ -6,8 +6,14 @@ public class Hangman
 
     public void Game()
     {
+    
+        //Chooses random word
+        string[] words = { "Excellent", "Good", "Super", "Funny", "Cheeseburger", "Computer" };
+        Random random = new Random();
+        int start = random.Next(0, words.Length);
 
-        CreateRandom();
+        Console.WriteLine(words[start]);
+
         while (wrong < 8)
         {
 
@@ -26,20 +32,6 @@ public class Hangman
 
 
         //Need code to display underscores and maybe hangman character, has to have if statements for when player guesses a correct letter
-
-    }
-
-
-    public void CreateRandom()
-    {
-
-        //Chooses random word
-        string[] words = { "Excellent", "Good", "Super", "Funny", "Cheeseburger", "Computer" };
-        Random random = new Random();
-        int start = random.Next(0, words.Length);
-
-        Console.WriteLine(words[start]);
-
 
     }
 }
