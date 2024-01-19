@@ -6,11 +6,11 @@ public class NumberGuesser
     {
         int numberOfGuesses = 6;
         int lowestNumber = 0;
-        int highestNumber = 100 + 1;
+        int highestNumber = 100;
 
         Random random = new Random();
 
-        int randomNumber = random.Next(lowestNumber, highestNumber);
+        int randomNumber = random.Next(lowestNumber, highestNumber + 1);
         System.Console.WriteLine("Guess a number "+ lowestNumber + " - " + highestNumber + "\nYou get "+ numberOfGuesses + " Guesses");
         int PlayerGuess = int.Parse(Console.ReadLine());
 
@@ -38,7 +38,7 @@ public class NumberGuesser
             PlayerGuess = int.Parse(Console.ReadLine());
             if (numberOfGuesses < 2)
             {
-                Console.WriteLine("You are out of guesses. \nGame Over");
+                Console.WriteLine("You are out of guesses.\nThe number was " + randomNumber + "\nGame Over");
                 break;
             }
         }
